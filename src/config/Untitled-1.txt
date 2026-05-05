@@ -1,0 +1,6 @@
+mongodb+srv://somnathgupta474_db_user:3L5vWraacyfdkcoW@auth-yt.vkdzhwk.mongodb.net/?appName=auth-yt
+
+
+
+
+3L5vWraacyfdkcoW

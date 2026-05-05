@@ -2,8 +2,12 @@ import dotenv from "dotenv"
 
 dotenv.config();
 
-const congig={
+
+if(!process.env.MONGO_URI){
+    throw new Error("MONGO_URI is not defined in ev")
+}
+const config={
     MONGO_URI:process.env.MONGO_URI
 }
 
-export default config;
+export default config; 
